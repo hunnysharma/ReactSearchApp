@@ -54,6 +54,7 @@ export default function SearchPhotos() {
 
       </div>) }
       </div>
+<button class="load_more" onClick={searchPhotos}>Load More</button>
     </>
   );
 }
