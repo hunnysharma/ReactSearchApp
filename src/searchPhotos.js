@@ -7,6 +7,7 @@ const unsplash = new Unsplash({
 });
 
 export default function SearchPhotos() {
+  console.log('hiSug');
   const [query, setQuery] = useState("");
   const [pics, setPics] = useState([]);
   const searchPhotos = async (e) => {
