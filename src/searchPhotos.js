@@ -15,7 +15,7 @@ export default function SearchPhotos() {
    
 
     unsplash.search
-    .photos(query, 5, 20)
+    .photos(query, 5, 15)
     .then(toJson)
     .then((json) => {
       setPics(json.results);
@@ -49,8 +49,8 @@ export default function SearchPhotos() {
                 className="card--image"
                 alt={pic.alt_description}
                 src={pic.urls.full}
-                width="50%"
-                height="50%"
+                width="40%"
+                height="40%"
               ></img> 
 
       </div>) }
