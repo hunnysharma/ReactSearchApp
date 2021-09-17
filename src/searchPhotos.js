@@ -29,13 +29,13 @@ export default function SearchPhotos() {
       <form className="form" onSubmit={searchPhotos}>
         <label className="label" htmlFor="query">
           {" "}
-          📷
+         
         </label>
         <input
           type="text"
           name="query"
           className="input"
-          placeholder={`Try "dog" or "apple"`}
+          placeholder={`Try "God" or "apple"`}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -56,7 +56,6 @@ export default function SearchPhotos() {
 
       </div>) }
       </div>
-<button class="load_more" onClick={searchPhotos}>Load More</button>
     </>
   );
 }
