@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="title">React Photo Search</h1>
+        <h1 className="title">React Search App</h1>
          <p>Using Unsplash API</p>
         <SearchPhotos />
 
