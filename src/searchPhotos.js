@@ -40,7 +40,7 @@ export default function SearchPhotos() {
           onChange={(e) => setQuery(e.target.value)}
         />
         <button type="submit" className="button">
-          Search
+          Go
         </button>
       </form>
       <div className="card-list">
@@ -50,8 +50,8 @@ export default function SearchPhotos() {
                 className="card--image"
                 alt={pic.alt_description}
                 src={pic.urls.full}
-                width="40%"
-                height="40%"
+                width="100%"
+                height="100%"
               ></img> 
 
       </div>) }
