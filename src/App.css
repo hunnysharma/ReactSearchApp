@@ -9,7 +9,7 @@
 
 * {
   box-sizing: border-box;
-  background-color: rgb(244, 244, 244);
+  background-color: lightsteelblue;
   color: #333;
   font-size: 10px;
 }
@@ -63,13 +63,16 @@
 }
 
 .card-list {
-  column-count: 3;
+  display: flex;
+  flex-flow: wrap;
 }
 
 
 .card {
   margin-bottom: 1rem;
   display: flex;
+  width: 30%;
+  margin: 10px;
 }
 
 .card--image {
