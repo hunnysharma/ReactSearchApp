@@ -35,7 +35,7 @@ export default function SearchPhotos() {
           type="text"
           name="query"
           className="input"
-          placeholder={`Try "God" or "apple"`}
+          placeholder={`Search Here`}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
