@@ -5,7 +5,7 @@ import Unsplash, { toJson } from "unsplash-js";
 const unsplash = new Unsplash({
   accessKey: "P68afyGqAaZKMs9DFKgHW0uAoiI0qAWdTvPgYFTz6Fc",
 });
-function SearchPhotosMore() {
+export function SearchPhotosMore() {
   console.log('hiSug');
   const [query, setQuery] = useState("");
   const [pics, setPics] = useState([]);
